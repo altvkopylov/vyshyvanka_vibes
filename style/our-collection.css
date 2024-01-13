@@ -1,0 +1,36 @@
+.our-collection-section .section-title {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .our-collection-section .section-title {
+        font-size: 44px;
+        line-height: 1.45;
+        letter-spacing: -1.32px;
+    }
+}
+
+.collection-item img {
+    border-radius: 4px;
+}
+
+.collection-item h3 {
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+    padding: 18px 0 8px;
+}
+
+.collection-item p {
+    color: rgba(252, 249, 249, 0.40);
+    line-height: 1;
+    letter-spacing: 0.7px;
+}
+
+.collection-item:not(:last-child) p {
+    padding-bottom: 20px;
+}
