@@ -17,30 +17,25 @@ body {
     max-width: 375px;
 
     padding-top: 80px;
-    /* background-color: red; */
 }
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
-
-        /* background-color: orange; */
+        max-width: 704px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .container {
-        max-width: 1280px;
-
-        /* background-color: yellow; */
+        max-width: 1180px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .container {
-        max-width: 1440px;
-
-        /* background-color: green; */
+        max-width: 1240px;
     }
 }
 
@@ -49,4 +44,8 @@ body {
     font-weight: 500;
     line-height: 1.38;
     letter-spacing: -0.96px;
+}
+
+.yellow {
+    color: #ECD979;
 }

@@ -31,37 +31,37 @@
             about-us
         </div>
     </section>
-    <section class="our-collection-section">
+    <section class="our-collection-section none DONE">
         <div class="container">
             <h2 class="section-title">Our collection</h2>
             <ul class="collection-items">
                 <li class="collection-item">
-                    <img src="./img/collection_1.jpg" alt="1-st item card image">
-                    <h3>AUGUST Poltava women's blouseRING</h3>
+                    <img src="./img/collection/collection_1.jpg" alt="1-st item card image">
+                    <h3 title="August Poltava women's blousering">AUGUST Poltava women's blouseRING</h3>
                     <p>3300 UAH</p>
                 </li>
                 <li class="collection-item">
-                    <img src="./img/collection_2.jpg" alt="2-st item card image">
+                    <img src="./img/collection/collection_2.jpg" alt="2-st item card image">
                     <h3>Women's blouse Gorgany</h3>
                     <p>3350 UAH</p>
                 </li>
                 <li class="collection-item">
-                    <img src="./img/collection_3.jpg" alt="3-st item card image">
+                    <img src="./img/collection/collection_3.jpg" alt="3-st item card image">
                     <h3>Women's blouse Crimea</h3>
                     <p>4000 UAH</p>
                 </li>
                 <li class="collection-item">
-                    <img src="./img/collection_4.jpg" alt="4-st item card image">
+                    <img src="./img/collection/collection_4.jpg" alt="4-st item card image">
                     <h3>Men's shirt Verkhovina</h3>
                     <p>3100 UAH</p>
                 </li>
                 <li class="collection-item">
-                    <img src="./img/collection_5.jpg" alt="5-st item card image">
+                    <img src="./img/collection/collection_5.jpg" alt="5-st item card image">
                     <h3>Mountain men's shirt</h3>
                     <p>3300 UAH</p>
                 </li>
                 <li class="collection-item">
-                    <img src="./img/collection_6.jpg" alt="6-st item card image">
+                    <img src="./img/collection/collection_6.jpg" alt="6-st item card image">
                     <h3>Men's shirt Yasen</h3>
                     <p>1700 UAH</p>
                 </li>
@@ -73,14 +73,65 @@
             photo
         </div>
     </section>
-    <section class="order-section none">
+    <section class="order-section none DONE">
         <div class="container">
-            order
+            <div class="form-container">
+                <h2 class="section-title"><span class="yellow">Your order</span> is our priority: Personalized approach
+                    and
+                    quality of service
+                </h2>
+                <form class="form" name="order">
+                    <input type="text" name="full_name" placeholder="Enter your full name">
+                    <input type="email" name="email" placeholder="Enter your email">
+                    <textarea name="comment" cols="30" rows="9" placeholder="Comments"></textarea>
+                    <button class="submit" type="submit">
+                        Send
+                        <svg class="subscribe-form-icon" width="24" height="16">
+                            <use href="./img/icons.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <picture class="order-img none">
+                <source media="(min-width: 1440px)" srcset="./img/order/order_desk_plus.jpg" type="image/jpg" />
+                <source media="(min-width: 1280px)" srcset="./img/order/order_desk.jpg" type="image/jpg" />
+                <source media="(min-width: 768px)" srcset="./img/order/order_tab.jpg" type="image/jpg" />
+                <img class="order-img" src="./img/order/order_tab.jpg" alt="vyshyvanka girl">
+            </picture>
         </div>
     </section>
-    <section class="testimonials-section none">
+    <section class="testimonials-section none DONE">
         <div class="container">
-            testimonials
+            <h2 class="section-title">Testimonials</h2>
+            <ul class="testimonials-list">
+                <li class="testimonials-item">
+                    <img class="logo" src="./img/testimonials_logo/Maria_Tkachuk_1.png" alt="Maria Tkachuk photo">
+                    <h3>Maria Tkachuk</h3>
+                    <p>I was pleasantly surprised by the variety of embroidery offered by Vyshyvanka Vibes. They have
+                        models for every taste -
+                        from classic to modern. I bought an embroidered dress to celebrate a special occasion and
+                        received impeccable service
+                        and refinement in every detail.</p>
+                </li>
+                <li class="testimonials-item none">
+                    <img class="logo" src="./img/testimonials_logo/Sergey_Rybachok_2.png" alt="Sergey Rybachok photo">
+                    <h3>Sergey Rybachok</h3>
+                    <p>Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are simply masterpieces! I fell in
+                        love with the quality
+                        of the materials and the skill of the artisans behind each product. This is my favorite
+                        embroidery shop where I always
+                        find something special and unique.</p>
+                </li>
+                <li class="testimonials-item none">
+                    <img class="logo" src="./img/testimonials_logo/Natalia_Chatuk_3.png" alt="Natalia Chatuk photo">
+                    <h3>Natalia Chatuk</h3>
+                    <p>Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian culture. Their embroidery
+                        reflects the spirit and
+                        traditions of our people. I not only buy embroidered shirts for myself, but also give them to my
+                        friends abroad as a
+                        symbol of our beauty and national pride.</p>
+                </li>
+            </ul>
         </div>
     </section>
 </main>

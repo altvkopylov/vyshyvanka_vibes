@@ -11,8 +11,48 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .collection-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .collection-items {
+        gap: 40px 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .collection-item {
+        width: calc((100% - 1 * 20px) / 2);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .collection-item {
+        width: calc((100% - 2 * 20px) / 3);
+    }
+}
+
 .collection-item img {
     border-radius: 4px;
+    height: 430px;
+    width: 342px;
+}
+
+@media screen and (min-width: 1280px) {
+    .collection-item img {
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .collection-item img {
+        width: 400px;
+    }
 }
 
 .collection-item h3 {
@@ -23,6 +63,16 @@
     font-size: 14px;
 
     padding: 18px 0 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 768px) {
+    .our-collection-section h3 {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+    }
 }
 
 .collection-item p {
@@ -31,6 +81,19 @@
     letter-spacing: 0.7px;
 }
 
+@media screen and (min-width: 768px) {
+    .our-collection-section p {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+    }
+}
+
 .collection-item:not(:last-child) p {
     padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .collection-item:not(:last-child) p {
+        padding-bottom: 0;
+    }
 }
