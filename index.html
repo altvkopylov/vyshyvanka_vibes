@@ -21,17 +21,65 @@
     </div>
 </header>
 <main>
-    <section class="hero-section none">
+    <section class="hero-section DONE">
         <div class="container">
-            hero
+            <div class="text_button-container">
+                <h1>Reviving the traditional <span class="yellow">Ukrainian</span> artistry in every stitch.</h1>
+                <button class=" btn order-btn" type="button">
+                    Order
+                    <svg class="arrow-icon" width="24" height="16">
+                        <use href="./img/icons.svg#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
+            <picture>
+                <!-- <source media="(min-width: 1440px)" srcset="./img/hero/girl_desk.jpg" type="image/jpg" /> -->
+                <source media="(min-width: 1280px)" srcset="./img/hero/girl_desk.jpg" type="image/jpg" />
+                <source media="(min-width: 768px)" srcset="./img/hero/girl_tab.jpg" type="image/jpg" />
+                <img class="photo-section-img" src="./img/hero/girl_mob.jpg" alt="vyshyvanka girl">
+            </picture>
+            <div class="star-block none">
+                <svg class="star-icon" width="49" height="49">
+                    <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+                <p>all embroidery is made by hand</p>
+            </div>
         </div>
     </section>
-    <section class="about-us-section none">
+    <section class="about-us-section  DONE">
         <div class="container">
-            about-us
+            <div class="about-us_text-section">
+                <h2 class="section-title">About Us</h2>
+                <p class="about-us_text">The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka
+                    comes to life with new
+                    zest and style.
+                    Our store offers a wide selection of high-quality and authentic embroidery, which combines the
+                    elegance
+                    of traditional
+                    needlework and modern design.</p>
+                <p class="about-us_text">In "Vyshyvanka Vibes" you will find various models of embroidery, from classic
+                    to modern, corresponding
+                    to the latest
+                    fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified
+                    craftsmen who convey
+                    the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but
+                    a
+                    symbol of
+                    national pride, the heritage of our ancestors and a way of expressing one's individuality. Each
+                    embroidery from
+                    "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.</p>
+            </div>
+            <picture>
+                <source media="(min-width: 1440px)" srcset="./img/about-us_section/about-us_desk_plus.jpg"
+                    type="image/jpg" />
+                <source media="(min-width: 1280px)" srcset="./img/about-us_section/about-us_desk.jpg"
+                    type="image/jpg" />
+                <source media="(min-width: 768px)" srcset="./img/about-us_section/about-us_tab.jpg" type="image/jpg" />
+                <img class="photo-section-img" src="./img/about-us_section/about-us-mob.jpg" alt="vyshyvanka girl">
+            </picture>
         </div>
     </section>
-    <section class="our-collection-section none DONE">
+    <section class="our-collection-section  DONE">
         <div class="container">
             <h2 class="section-title">Our collection</h2>
             <ul class="collection-items">
@@ -68,12 +116,17 @@
             </ul>
         </div>
     </section>
-    <section class="photo-section none">
+    <section class="photo-section  DONE">
         <div class="container">
-            photo
+            <picture>
+                <source media="(min-width: 1440px)" srcset="./img/image_section/image_desk_plus.jpg" type="image/jpg" />
+                <source media="(min-width: 1280px)" srcset="./img/image_section/image_desk.jpg" type="image/jpg" />
+                <source media="(min-width: 768px)" srcset="./img/image_section/image_tab.jpg" type="image/jpg" />
+                <img class="photo-section-img" src="./img/image_section/image_mob.jpg" alt="vyshyvanka girl">
+            </picture>
         </div>
     </section>
-    <section class="order-section none DONE">
+    <section class="order-section  DONE">
         <div class="container">
             <div class="form-container">
                 <h2 class="section-title"><span class="yellow">Your order</span> is our priority: Personalized approach
@@ -84,9 +137,9 @@
                     <input type="text" name="full_name" placeholder="Enter your full name">
                     <input type="email" name="email" placeholder="Enter your email">
                     <textarea name="comment" cols="30" rows="9" placeholder="Comments"></textarea>
-                    <button class="submit" type="submit">
+                    <button class="btn submit-btn" type="submit">
                         Send
-                        <svg class="subscribe-form-icon" width="24" height="16">
+                        <svg class="arrow-icon" width="24" height="16">
                             <use href="./img/icons.svg#icon-arrow"></use>
                         </svg>
                     </button>
@@ -100,7 +153,7 @@
             </picture>
         </div>
     </section>
-    <section class="testimonials-section none DONE">
+    <section class="testimonials-section  DONE">
         <div class="container">
             <h2 class="section-title">Testimonials</h2>
             <ul class="testimonials-list">

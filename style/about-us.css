@@ -1,0 +1,52 @@
+@media screen and (min-width: 1280px) {
+    .about-us-section .container {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us_text-section {
+        width: 536px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about-us_text-section {
+        width: 481px;
+    }
+}
+
+.about-us-section .section-title {
+    margin-bottom: 40px;
+}
+
+.about-us_text {
+    margin-bottom: 20px;
+
+    color: rgba(252, 249, 249, 0.40);
+    line-height: normal;
+    letter-spacing: -0.56px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us_text {
+        font-size: 16px;
+        letter-spacing: -0.64px;
+    }
+}
+
+.about-us_text:last-child {
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us_text:last-child {
+        padding-bottom: 40px;
+    }
+}
+
+.about-us-section img {
+    border-radius: 4px;
+}

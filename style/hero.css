@@ -1,0 +1,115 @@
+.hero-section .container {
+    padding-top: 84px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-section .container {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-section .container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        gap: 40px;
+        padding-top: 100px;
+    }
+}
+
+.hero-section h1 {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.09;
+    letter-spacing: -1.32px;
+
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-section h1 {
+        font-size: 54px;
+        line-height: 1.19;
+        letter-spacing: -1.62px;
+
+        margin-bottom: 40px;
+
+        width: 549px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-section h1 {
+        width: 518px;
+        margin-top: 94px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-section h1 {
+        margin-top: 66px;
+    }
+}
+
+.hero-section img {
+    border-radius: 4px;
+}
+
+.order-btn {
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+@media screen and (min-width: 768px) {
+    .order-btn {
+        margin-bottom: 46px;
+        margin-left: 141px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-section .container {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .star-block {
+        display: flex;
+        position: absolute;
+        top: 116px;
+        right: 0;
+        width: 115px;
+    
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .star-block p {
+        color: rgba(252, 249, 249, 0.40);
+        text-align: center;
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: -0.64px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .star-block {
+        top: 114px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .star-block {
+        top: 166px;
+    }
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1280px) {}
+
+@media screen and (min-width: 1440px) {}

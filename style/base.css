@@ -24,12 +24,14 @@ body {
         max-width: 704px;
         padding-left: 0;
         padding-right: 0;
+        padding-top: 100px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1180px;
+        padding-top: 150px;
     }
 }
 
@@ -44,6 +46,14 @@ body {
     font-weight: 500;
     line-height: 1.38;
     letter-spacing: -0.96px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-title {
+        font-size: 44px;
+        line-height: 1.45;
+        letter-spacing: -1.32px;
+    }
 }
 
 .yellow {
